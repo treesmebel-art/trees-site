@@ -1268,8 +1268,8 @@ useEffect(() => {
     ? upholsteryOptions.filter(opt =>
         ["dark-beige", "milky", "dark-gray", "brown"].includes(opt.id)
       )
-    : product.id === "supra-semi-bar"
-    ? upholsteryOptions.filter(opt => opt.id !== "emerald")
+   : product.id === "supra-semi-bar"
+? upholsteryOptions.filter(opt => opt.id !== "emerald" && opt.id !== "khaki")
     : product.id === "alba"
     ? upholsteryOptions.filter(opt =>
         ["light-gray", "dark-beige", "milky", "brown", "dark-gray"].includes(opt.id)
